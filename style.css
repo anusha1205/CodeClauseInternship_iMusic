@@ -77,10 +77,10 @@ body{
 #progress::-webkit-slider-thumb{
       -webkit-appearance: none;
       background-color: rgb(12, 19, 74);
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
       border-radius: 100%;
-      border: 8px solid #fff;
+      border: 6px solid #fff;
       box-shadow: 0 5px 5px rgb(76, 76, 76)
 }
 
@@ -90,8 +90,8 @@ body{
       align-items: center;
 }
 .controls div{
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       margin: 20px;
       background-color: white;
       display: inline-flex;
