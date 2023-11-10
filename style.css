@@ -112,6 +112,9 @@ body{
 
 @media screen and (max-width: 675px) {
       .container{
-            width: 65%;
+            width: 75%;
+      }
+      .image{
+            width: 60%;
       }
 }
