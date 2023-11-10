@@ -25,15 +25,13 @@ body{
       
 }
 .btn{
-      background-color: white;
+      /* background-color: white; */
       background: transparent;
       border: none;
-      
 }
 .btn:hover{
       cursor: pointer;
 }
-
 
 
 .image-song-detail{
@@ -55,15 +53,65 @@ body{
 }
 
 
-
-
 .audio-div{
       margin-top: 10%;
       display: flex;
       justify-content: center;
       background: transparent;
+      flex-direction: column;
 }
 
 #player{
       background: transparent;
+}
+
+#progress{
+      -webkit-appearance: none;
+      width: auto;
+      height: 7px;
+      background: rgb(16, 25, 110);
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 40px;
+}
+#progress::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      background-color: rgb(12, 19, 74);
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      border: 8px solid #fff;
+      box-shadow: 0 5px 5px rgb(149, 149, 149)
+}
+
+.controls{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.controls div{
+      width: 60px;
+      height: 60px;
+      margin: 20px;
+      background-color: white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: rgb(26, 20, 89);
+      cursor: pointer;
+}
+/* this is basically it will make the nth child however it desires to be */
+/* idhar ham log ne 2 mention kiya hai toh 2nd child will be scaled to 1.5 size bigger than others */
+.controls div:nth-child(2){
+      transform: scale(1.5);
+      background-color: rgb(26, 20, 89);
+      color: white;
+}
+
+
+@media screen and (max-width: 675px) {
+      .container{
+            width: 65%;
+      }
 }
