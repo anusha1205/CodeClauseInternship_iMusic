@@ -33,9 +33,9 @@ body{
       cursor: pointer;
 }
 
-
 .image-song-detail{
       display: flex;
+      margin-top: 6%;
       flex-direction: column;
       align-items: center;
 }
@@ -43,13 +43,23 @@ body{
 .image-div{
       display: flex;
       justify-content: center;
-      margin-bottom: 10px;
 }
 .image{
       border-radius: 100%;
-      width: 85%;
+      width: 70%;
       border: solid white;
       border-width: 10px;
+}
+.goodnight-text{
+      font-family: 'Jost', sans-serif;
+      font-size: 4rem;
+      color: black;
+      
+}
+.artist-name{
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      margin-top: 0px;
 }
 
 
@@ -116,5 +126,11 @@ body{
       }
       .image{
             width: 60%;
+      }
+      .artist-name{
+            font-size: 3rem;
+      }
+      .goodnight-text{
+            font-size: 3rem;
       }
 }
