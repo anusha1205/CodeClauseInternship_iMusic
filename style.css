@@ -1,0 +1,19 @@
+body{
+      background: url('images/background_image.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+.container{
+      background-color: rgb(152, 167, 228);
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      /* text-align: center; */
+      align-items: center;
+      height: 30%;
+      width: 30%;
+      
+}
