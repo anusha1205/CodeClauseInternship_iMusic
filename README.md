@@ -7,3 +7,4 @@ Event Handling: JavaScript likely includes event listeners to detect when the us
 Play & Pause Functionality: Functions written in JavaScript would control the play and pause actions. Upon clicking the respective buttons, JavaScript might toggle the state of the music playback.
 
 Future Functionality: Although the backward and forward buttons might not be fully functional yet, JavaScript could be used to outline the structure and prepare the functionality for these buttons. Functions might be created to handle skipping forward or backward in the music playback once they are fully integrated.
+You can find the website working in my LinkedIn post : 
